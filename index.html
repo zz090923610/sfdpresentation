@@ -91,7 +91,8 @@
         
     -->
     <link href="css/impress-demo.css" rel="stylesheet" />
-    
+    <link href="css/danmaku.css" rel="stylesheet" />
+
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
@@ -388,6 +389,16 @@ if ("ontouchstart" in document.documentElement) {
     is used in event handlers.
     
 -->
+
+<div class="danmaku">
+  <div class="line-1" data-hover="#bored b">弹幕</div>
+  <div class="line-2" data-hover="#bored b">这是一条非常极其以及特别的长长长长长长长长长长长长长长的弹幕</div>
+  <div class="line-3" data-hover="#bored b">弹幕！</div>
+  <div class="line-3" data-hover="#bored b" data-delay="3">迟钝的弹幕</div>
+  <div class="bottom" data-hover="#bored b">底部弹幕</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/danmaku.js"></script>
 
 </body>
 </html>
